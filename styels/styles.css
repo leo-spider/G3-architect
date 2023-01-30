@@ -1,0 +1,165 @@
+/* universal styles */
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 230;
+}
+
+body {
+    font-family: Work Sans, sans-serif;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header-logo {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 20px;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 10px;
+    color: #424242;
+}
+
+.banner-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.primary-button {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FF900E;
+    border: none;
+    color: #FFFFFF;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+}
+
+.main-body {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.description {
+    margin-left: 40px;
+}
+
+
+.banner-header {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.feature-color {
+    color: #FF900E;
+
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.main-body2 {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.main-body-dscrp {
+    margin-right: 30px;
+}
+
+.main_body-img {
+    width: 800px;
+    height: 1059px;
+}
+
+.main-body-2-btn {
+    background-color: #FF900E;
+    width: 150px;
+    border: none;
+    color: #FFFFFF;
+    position: absolute;
+    left: 550px;
+    top: 3104px;
+    border-radius: 8px;
+}
+.fact{
+    background-color: #FFFFFF;
+}
+.fact-awards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: white;
+}
+.fact-para {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/*-------------- 
+Media Queries 
+ ---------------*/
+
+/* Mobile devices*/
+
+@media screen and (max-width:688px) {
+    .header-logo {
+        font-weight: 300;
+        font-size: 35px;
+        color: #131313;
+        text-align: center;
+    }
+
+    .header {
+        display: block;
+    }
+
+    nav ul li {
+        align-items: center;
+        display: list-item;
+    }
+}
