@@ -29,7 +29,7 @@ nav ul li {
     font-size: 18px;
     line-height: 26px;
     margin: 10px;
-    color: #424242;
+    color: #0f0e0e;
 }
 
 .banner-title {
@@ -118,10 +118,12 @@ nav ul li {
     top: 3104px;
     border-radius: 8px;
 }
-.fact{
+
+.fact {
     background-color: #FFFFFF;
 }
-.fact-awards{
+
+.fact-awards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,6 +131,7 @@ nav ul li {
     padding-right: 50px;
     background: white;
 }
+
 .fact-para {
     color: #727272;
     font-weight: 400;
@@ -140,6 +143,34 @@ nav ul li {
     font-size: 45px;
 }
 
+.ribon {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+}
+.project{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+}
+.customers{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+}
+.email{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+}
 /*-------------- 
 Media Queries 
  ---------------*/
