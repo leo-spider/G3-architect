@@ -129,13 +129,14 @@ nav ul li {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    background: white;
+    background-color: white;
 }
 
 .fact-para {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+    background-color: white;
 }
 
 .fact-title {
@@ -150,27 +151,67 @@ nav ul li {
     border-radius: 8px;
     align-items: center;
 }
-.project{
+
+.project {
     width: 150px;
     height: 150px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     align-items: center;
 }
-.customers{
+
+.customers {
     width: 150px;
     height: 150px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     align-items: center;
 }
-.email{
+
+.email {
     width: 150px;
     height: 150px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     align-items: center;
 }
+
+.sponsor-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+    margin-top: 60px;
+    background-color: white;
+
+}
+
+.sponsor-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    background-color: white;
+}
+
+.sponsor-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.contact{
+    padding: 60px;
+}
+
+.footer {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin-top: 50px;
+}
+
 /*-------------- 
 Media Queries 
  ---------------*/
